@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+    <h1 class="page-title">
+        Natfy <img src="https://media.discordapp.net/attachments/1000243321060470894/1174543391284019251/logo-spotify-icone-png-rouge.png" id="natfy">
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    
+ <div><button id="meuBotao" onclick="display()">Criar Musica</button></div>
+<div id="container" class="displayNone">
+  <div class="inputs" id="algumacoisa">
+
+    <input type="text" id="input-url" placeholder="Insira a URL da imagem">
+    <input type="text" id="input-nome" placeholder="Insira o NOME da musica">
+    <input type="text" id="input-link" placeholder="Insira o LINK da musica">
+    <button onclick="adicionarMusica()" id="button">Adicionar</button>
+  </div>
+</div>
+
+<div class="container">
+  <div id="lista-musica"> 
+     <div>
+      <a href="https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4?si=diXrdO8cQfSiJrD_H0jjSg">
+      <img src="https://upload.wikimedia.org/wikipedia/pt/4/4a/Pink_Floyd_-_Animals.jpg"> <p>Pink Floyd <br> Animals
+     </a>
+     </div> 
+
+      <div>
+      <a href="https://open.spotify.com/intl-pt/album/1klALx0u4AavZNEvC4LrTL?si=nLf7nxISQuWtNOTjlh222g">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/TheBeatles68LP.jpg"> <p>The Beatles <br> White Album
+      </a>
+      </div>
+     
+      <div> 
+      <a href="https://open.spotify.com/intl-pt/album/19bQiwEKhXUBJWY6oV3KZk?si=aK5q1ml6QSKqr3sc-uu0zg">
+       <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Madvillainy_cover.png"> <p>MF Doom <br>Madvillain
+      </a> 
+      </div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

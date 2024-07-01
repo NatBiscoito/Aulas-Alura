@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/564x/1c/cf/a2/1ccfa2a85bf1c6ccf2aff2e66b8af4ae.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height:100vh;
+  
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 200px;
+}
+
+#natfy {
+  width: 40px;
+  position: relative;
+  top: 10px;
+}
+
+#lista-musica { 
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+
+#lista-musica > div {
+  border: solid ;
+  border-radius: 5px;
+  background-color: rgb(255, 139, 139);
+  padding: 10px;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+#lista-musica div img {
+  border: solid 
+}
+
+
+.inputs {
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid white;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(255, 65, 65);
+  border-radius: 10px;
+}
+
+.inputs > input {
+  position: relative;
+  top: 200px;
+  width: 300px;
+  margin: 5px; 
+  border: solid rgba(255, 0, 0, 0) 2px;
+  border-radius: 5px;
+}
+
+#button {
+  color: rgb(255, 0, 0);
+  border-radius: 5px;
+  margin: 10px;
+  border: solid black 1px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  top: 200px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration:none
+}
+
+#meuBotao {
+  background-color: rgb(255, 123, 123);
+  border-radius: 10px;
+  border: 1px rgb(255, 255, 109);
+}
+
+#container {
+  position:absolute;  
+  z-index:2;
+  margin-top:180px;
+}
+
+.displayNone{
+  display:none;
+}
